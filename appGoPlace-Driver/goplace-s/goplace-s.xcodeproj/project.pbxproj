@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,7 @@
 		4D27D14327125CB8004CF5B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D27D14127125CB8004CF5B3 /* LaunchScreen.storyboard */; };
 		4D81F2FC2714EC9B00AF56B2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81F2FB2714EC9B00AF56B2 /* RegisterViewController.swift */; };
 		4D81F2FF2714FD8D00AF56B2 /* RecoveryPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81F2FE2714FD8D00AF56B2 /* RecoveryPasswordController.swift */; };
-		B44A81A0274C439F0046314B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B44A819F274C439F0046314B /* GoogleService-Info.plist */; };
+		78314791274CCC50009B51AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78314790274CCC50009B51AD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		4D81F2FB2714EC9B00AF56B2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		4D81F2FE2714FD8D00AF56B2 /* RecoveryPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryPasswordController.swift; sourceTree = "<group>"; };
 		747C45416D8DA82D457CC44D /* Pods-goplace-s.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goplace-s.debug.xcconfig"; path = "Target Support Files/Pods-goplace-s/Pods-goplace-s.debug.xcconfig"; sourceTree = "<group>"; };
-		B44A819F274C439F0046314B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		78314790274CCC50009B51AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 				4D27D13F27125CB8004CF5B3 /* Assets.xcassets */,
 				4D27D14127125CB8004CF5B3 /* LaunchScreen.storyboard */,
 				4D27D14427125CB8004CF5B3 /* Info.plist */,
-				B44A819F274C439F0046314B /* GoogleService-Info.plist */,
+				78314790274CCC50009B51AD /* GoogleService-Info.plist */,
 				4D81F2FB2714EC9B00AF56B2 /* RegisterViewController.swift */,
 				4D81F2FE2714FD8D00AF56B2 /* RecoveryPasswordController.swift */,
 			);
@@ -89,7 +89,6 @@
 				747C45416D8DA82D457CC44D /* Pods-goplace-s.debug.xcconfig */,
 				22112700FACF25FDC3F6F757 /* Pods-goplace-s.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -161,7 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D27D14327125CB8004CF5B3 /* LaunchScreen.storyboard in Resources */,
-				B44A81A0274C439F0046314B /* GoogleService-Info.plist in Resources */,
+				78314791274CCC50009B51AD /* GoogleService-Info.plist in Resources */,
 				4D27D14027125CB8004CF5B3 /* Assets.xcassets in Resources */,
 				4D27D13E27125CAE004CF5B3 /* Main.storyboard in Resources */,
 			);
